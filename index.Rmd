@@ -1,0 +1,19 @@
+
+2. Visualization for ordinal scales
+
+
+```{r}
+link='https://github.com/EvansDataScience/data/raw/master/eduwa.rda'
+
+#getting the data TABLE from the file in the cloud:
+load(file=url(link))
+```
+
+```{r}
+barplot(table(eduwa$Title.I.School))
+
+
+
+```
+
+
